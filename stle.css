@@ -1,0 +1,74 @@
+*{
+    text-decoration: none;
+}
+body{
+    background: rgb(229, 226, 226);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    justify-content: center;
+}
+.p-head{
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    width: 60%;
+    font-size: 15px;        
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    transition: 500ms;
+    margin-top: 50px;
+} 
+.card{
+    transition: 500ms;
+}
+#base:hover{
+    background: linear-gradient(to right, rgb(102, 32, 232),  rgb(135, 76, 237));
+    transform: translateY(-15px);
+}
+#base:hover h2{
+    color: white;
+}
+#pro:hover{
+    background: linear-gradient(to right, rgb(102, 32, 232),  rgb(135, 76, 237));
+    transform: translateY(-15px);
+}
+#pro:hover h2{
+    color: white;
+}
+#enter:hover{
+    background: linear-gradient(to right, rgb(102, 32, 232),  rgb(135, 76, 237));
+    transform: translateY(-15px);
+}
+#enter:hover h2{
+    color: white;
+}
+.card{
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 25px;
+}
+a .card h2{
+    color: black;
+}
+.card p{
+    width: 80%;
+    color: rgb(137, 137, 137);
+}
+.card li{
+    color: rgb(137, 137, 137) ;
+}
+.card button{
+    background:rgba(128, 0, 128, 0.306);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 15rem;
+    height: 40px;
+}
+ a{
+    text-decoration: none;
+}

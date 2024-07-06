@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stle.css">
+    <script src="./main.js"></script>
+</head>
+<body id="body">  
+    <center>
+    <h1 class="head">Pricing table</h1>
+    <p class="p-head">A pricing table component presents a structural layout displaying different pricing plansand thier correespoding feautures for comparison</p>
+</center>
+
+<div class="container">
+    <a href="javascript:void(0)" >
+     <div class="card " id="base">
+        <h2>Base</h2>
+        <p>This is short and clear description plan 1.</p>
+        <li>advantage 1</li>
+        <li>Advantage 2</li>
+        <li>Advantage 3</li>
+        <h2>Free</h2><br>
+        <button class="">choose plan</button>
+     </div>
+    </a>
+    <div class="card" id="pro">
+        <h2 >Pro</h2>
+        <p>This is short and clear description plan 2.</p>
+        <li>advantage 1</li>
+        <li>Advantage 2</li>
+        <li>Advantage 3</li>
+        <h2>$99/month</h2><br>
+        <button class="pro-btn">Choose Plan</button>
+    </div>
+    <div class="card" id="enter">
+        <h2>Enterprise</h2>
+        <p>This is short and clear description plan 3.</p>
+        <li>advantage 1</li>
+        <li>Advantage 2</li>
+        <li>Advantage 3</li>
+        <h2>$200/month</h2><br>
+        <button class="enterprise-btn">Choose Plan</button>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+    function myfunction(){
+        var x = document.getElementById('pro')
+        x.style.transform='translateY(20px)'
+
+    }
+
+    function myfunction2(){
+        var x = document.getElementById('pro')
+        x.style.transform='translateY(-20px)' 
+    }
+</script>
